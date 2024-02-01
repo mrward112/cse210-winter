@@ -1,6 +1,6 @@
 public class Job
 
-
+    //STATE 
     //OBJECTS or MEMBER VARIABLE ------------------------------------------------------
 {
     public string _company;
@@ -9,6 +9,8 @@ public class Job
     public int _endYear;
     //OBJECTS or MEMBER VARIABLE ------------------------------------------------------
 
+
+    //BEHAVIOR
     //METHOD -------------------------------------------------------
     public void DisplayJobDeets()
     {
