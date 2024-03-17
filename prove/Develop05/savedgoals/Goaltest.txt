@@ -1,0 +1,3 @@
+0
+Simple Goal: Simple Goal 1 | Be able to write a simple goal | 50 | False
+Eternal Goals: Eternal Goal | be able to write an eternal goal | 50

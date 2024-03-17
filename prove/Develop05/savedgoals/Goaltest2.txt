@@ -1,0 +1,4 @@
+100
+Simple Goal: Simple Goal 1 | Be able to write a simple goal | 50 | False
+Eternal Goals: Eternal Goal | be able to write an eternal goal | 50
+Checklist Goals: Checklist Goal | be able to write a checklist goal | 100 | 300 | 3 | 1 | False
