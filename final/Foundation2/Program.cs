@@ -13,6 +13,13 @@ class Program
         Customer customer = new Customer();
         customer.SetCustomer("John Doe", address);
 
+
+        // Create another customer
+        Customer customer2 = new Customer();
+        Address address2 = new Address();
+        address2.SetAddress("456 Oak St", "Birmingham", "AL", "USA");
+        customer2.SetCustomer("Jennifer Smith", address2);
+
         // Create Products
         List<Product> products = new List<Product>();
         Product product1 = new Product();
@@ -22,6 +29,11 @@ class Program
         Product product2 = new Product();
         product2.setProduct("Laptop", "P002", 999.99, 1);
         products.Add(product2);
+
+
+        Product product3 = new Product();
+        product3.setProduct("Tablet", "P003", 399.99, 1);
+        products.Add(product3);
 
         // Create Order
         Order order = new Order(products, customer);
